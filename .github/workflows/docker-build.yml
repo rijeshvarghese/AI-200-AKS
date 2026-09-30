@@ -23,8 +23,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t bipeen2001/kyndryl:ai-200-aks-v1 .
+          docker build -t rijeshvarghese/myapps:kyndrylapp_v1 .
 
       - name: Push Docker Image
         run: |
-          docker push bipeen2001/kyndryl:ai-200-aks-v1
+          docker push rijeshvarghese/myapps:kyndrylapp_v1
